@@ -1,0 +1,121 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+body{   
+    background-color: aliceblue;
+}
+
+.barra{
+    z-index: 1;
+    background-color: rgb(143, 100, 69);
+    height: 700px;
+    width: 60px;
+    position:fixed;
+    top: 0%;
+}
+
+.barra__perfil--imagen{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    bottom: 8px;
+}
+.barra__perfil--imagen:hover{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+
+}
+
+.biografia__titulo{
+    position: absolute;
+    color: rgb(73, 39, 15);;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.biografia__texto{
+    position: absolute;
+    color: rgb(73, 39, 15);;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+.info__titulo{
+    position: absolute;
+    color: rgb(73, 39, 15);;
+    padding-top: 160px;
+    padding-left: 100px;
+}
+
+.info__texto{
+    position: absolute;
+    color: rgb(73, 39, 15);;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.imagen__yo{
+    height: 130px;
+    width: 200px;
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+.imagen__yo2{
+    height: 130px;
+    width: 200px;
+    margin-top: 280px;
+    margin-left: 150px;
+}
+
+.contactanos{
+    background-color: rgb(143, 100, 69);
+    height: 100px;
+    width: 1200px;
+    margin: 50px;
+    overflow: auto;
+    position: relative;
+    top: 120px;
+    left: 40px;
+    z-index: 1;
+}
+
+.contactanos_contactanos{
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+
+.contactanos__twitter{
+    right: 300px;
+}
+
+.contactanos__fotoTiktok{
+position: absolute;
+width: 35px;
+background-color: rgb(143, 100, 69);
+}
+
+.contactanos__textoInstagram{
+    color: rgb(73, 39, 15);
+    padding-left: 100px;
+}
+
+.contactanos__textoTwitter{
+    color: rgb(73, 39, 15);
+    padding-left: 395px ;
+}
+
+.contactanos__textoTiktok{
+    color: rgb(73, 39, 15);
+    padding-left: 395px;
+}
+
+.contactanos ul{
+    list-style: none;
+    display: flex;
+}
