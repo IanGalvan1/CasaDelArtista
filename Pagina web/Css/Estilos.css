@@ -5,7 +5,7 @@
 }
 
 body{   
-    background: rgb(255,255,255);
+    background: rgb(169, 105, 105);
     background: linear-gradient(0deg, rgba(255,255,255,1) 3%, rgba(245,237,225,1) 15%, rgba(242,234,221,1) 35%, rgba(216,204,186,1) 58%, rgba(214,203,182,1) 78%, rgba(213,202,180,1) 90%); 
     max-width: 1600px;
     margin: 0px auto;
@@ -71,6 +71,8 @@ ul {
     margin: 10px;
 }
 
+/* index */
+
 .novedad{
     display: flex;
     flex-direction: row;
@@ -114,6 +116,256 @@ ul {
     padding: 20px;
 
 }
+
+/* perfil */
+
+.principio{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.biografia{
+    padding-left: 8%;
+}
+
+.biografia__titulo{
+    color: rgb(73, 39, 15);
+}
+
+.biografia__texto{
+    color: rgb(73, 39, 15);
+}
+
+.informacion{
+    padding-left: 8%;
+    padding-top: 2%;
+}
+
+.info__titulo{
+    color: rgb(73, 39, 15);
+
+}
+
+.info__texto{
+    color: rgb(73, 39, 15);
+}
+
+.imagen{
+    height: auto;
+    width: 90%;
+    /* padding-left: 5%; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px ;
+    /* grid-template-rows: 1fr; */
+    grid-gap: 20px;
+    justify-items: end;
+    align-items: center;
+}
+
+.imagen__yo{
+    justify-items: center;
+    height: 120px;
+    width: 190px;
+    padding: 1%;
+}
+
+.imagen__yo2{
+    height: 120px;
+    width: 190px;
+    padding: 1%;
+}
+
+/* obra */
+
+.titulo{
+    text-align: center;
+    color: rgb(73, 39, 15);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.uno{
+    background-color: rgb(129, 106, 90);
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 10px 10px 70px;
+}
+.dos{
+    background-color: rgb(151, 119, 97);
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 10px 10px 70px;
+}
+
+.tres{
+    background-color: rgb(129, 106, 90);
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 10px 10px 70px;
+}
+
+.cuatro{
+    background-color: rgb(151, 119, 97);
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 10px 10px 70px;
+}
+
+.uno__imagen{
+    margin: 10px 100px 10px 100px;
+    float: right ;
+    width: 100px;
+    height: 100px;
+}
+
+.uno__texto{
+    padding-left: 100px;
+    padding-top: 20px ;
+}
+
+.dos__imagen{
+    margin: 10px 100px 10px 100px;
+    float: right ;
+    width: 100px;
+    height: 100px;
+}
+
+.dos__texto{
+    padding-left: 100px;
+    padding-top: 20px ;
+}
+
+.tres__imagen{
+    margin: 10px 100px 10px 100px;
+    float: right ;
+    width: 100px;
+    height: 100px;
+}
+
+.tres__texto{
+    padding-left: 100px;
+    padding-top: 20px ;
+}
+
+
+/* trabajo (roto no entiendo porque)*/
+
+.arte__titulo{
+    position: absolute;
+    color: rgb(73, 39, 15);
+    padding-top: 80px;
+    padding-left: 250px;
+}
+
+.arte__pintura--uno{
+    width: 100px;
+    height: 100px;
+    padding-left: 120px;
+    padding-top: 150px;
+}
+.arte__pintura--dos{
+    width: 100px;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+.arte__pintura--tres{
+    width: 100px;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+.arte__pintura--cuatro{
+    width: 100px;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+.arte__pintura--cinco{
+    width: 100px;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+.arte__pintura--seis{
+    width: 100px;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+.arte__pintura--siete{
+    width: 100px;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+.arte__pintura--ocho{
+    width: 100px;
+    height: 100px;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+.arte__pintura--nueve{
+    width: 100px;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.arte__pintura--diez{
+    width: 100px;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.arte__pintura--once{
+    width: 100px;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.arte__pintura--doce{
+    width: 100px;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+/* formulario */
+
+.formulario__titulo{
+    color: black;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.formulario__uno{
+    margin-top: 45px;
+    
+    margin-left: 200px;
+}
+
+.formulario__dos{
+    margin-top: 45px;
+    margin-left: 200px;
+}
+
+.formulario__tres{
+    margin-top: 45px;
+    margin-left: 212px;
+}
+
+.textarea{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.imput{
+    margin-left: 850px;
+}
+
+/* fin */
 
 .elfooter{
     display: flex;
