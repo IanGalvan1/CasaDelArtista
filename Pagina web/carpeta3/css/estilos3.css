@@ -1,0 +1,160 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+body{   
+    background-color: aliceblue;
+}
+
+.barra{
+    background-color: rgb(143, 100, 69);
+    height: 1800px;
+    width: 60px;
+    position:fixed;
+    top: 0%;
+}
+
+.barra__perfil--imagen{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    bottom: 8px;
+}
+.barra__perfil--imagen:hover{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+
+}
+
+.titulo{
+    text-align: center;
+    color: rgb(73, 39, 15);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.uno{
+    background-color: rgb(129, 106, 90);
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 10px 10px 70px;
+}
+.dos{
+    background-color: rgb(151, 119, 97);
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 10px 10px 70px;
+}
+
+.tres{
+    background-color: rgb(129, 106, 90);
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 10px 10px 70px;
+}
+
+.cuatro{
+    background-color: rgb(151, 119, 97);
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 10px 10px 70px;
+}
+
+.uno__imagen{
+    margin: 10px 100px 10px 100px;
+    float: right ;
+    width: 100px;
+    height: 100px;
+}
+
+.uno__texto{
+    padding-left: 100px;
+    padding-top: 20px ;
+}
+
+.dos__imagen{
+    margin: 10px 100px 10px 100px;
+    float: right ;
+    width: 100px;
+    height: 100px;
+}
+
+.dos__texto{
+    padding-left: 100px;
+    padding-top: 20px ;
+}
+
+.tres__imagen{
+    margin: 10px 100px 10px 100px;
+    float: right ;
+    width: 100px;
+    height: 100px;
+}
+
+.tres__texto{
+    padding-left: 100px;
+    padding-top: 20px ;
+}
+
+.contactanos{
+    background-color: rgb(143, 100, 69);
+    height: 100px;
+    width: 1200px;
+    margin: 50px;
+    overflow: auto;
+    position: relative;
+    top: 65px;
+    left: 40px;
+    z-index: 1;
+}
+
+.cuatro__imagen{
+    margin: 10px 100px 10px 100px;
+    float: right ;
+    width: 100px;
+    height: 100px;
+}
+
+.cuatro__texto{
+    padding-left: 100px;
+    padding-top: 20px ;
+}
+
+.contactanos_contactanos{
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+
+.contactanos__twitter{
+    right: 300px;
+}
+
+.contactanos__fotoTiktok{
+position: absolute;
+width: 35px;
+background-color: rgb(143, 100, 69);
+}
+
+.contactanos__textoInstagram{
+    color: rgb(73, 39, 15);
+    padding-left: 100px;
+}
+
+.contactanos__textoTwitter{
+    color: rgb(73, 39, 15);
+    padding-left: 395px;
+}
+
+.contactanos__textoTiktok{
+    color: rgb(73, 39, 15);
+    padding-left: 395px;
+}
+
+.contactanos ul{
+    list-style: none;
+    display: flex;
+}

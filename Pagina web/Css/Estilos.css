@@ -16,28 +16,8 @@ head{
     background: linear-gradient(0deg, rgba(255,255,255,1) 3%, rgba(245,237,225,1) 15%, rgba(242,234,221,1) 35%, rgba(216,204,186,1) 58%, rgba(214,203,182,1) 78%, rgba(213,202,180,1) 90%); 
 }
 
-.portafolio {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 0px;
-}
-.portafolio__texto{
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #000000a6;
-    padding: 20px;
-    margin: 30px;
-    width: 600PX;
-    
-}
-
-h2{
-    color: rgb(73, 39, 15);
-}
-
-.call p{
-    margin-bottom: 20px;
+main{
+    margin-left: 60px ;
 }
 
 header{
@@ -53,7 +33,7 @@ header{
     top: 0%;
 }
 
-ul {
+.barra ul {
     padding-left: 10%;
     list-style: none;
 }
@@ -69,15 +49,40 @@ ul {
     height: 60px;
     width: 60px;
     margin: 10px;
+    transition: all 0.3s;
 }
 
 /* index */
+
+.portafolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 0px;
+}
+.portafolio__texto{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000000a6;
+    padding: 20px;
+    margin: 50px;
+    width: 600PX;
+    
+}
+
+h2{
+    color: rgb(73, 39, 15);
+}
+
+.portafolio p{
+    margin-bottom: 20px;
+}
 
 .novedad{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 10px;
+    margin: 5%;
 }
 
 .ultimo__texto{
@@ -87,7 +92,6 @@ ul {
 }
 
 .proceso__texto{
-    display: flex;
     color: black;
     font-size: 32px;
     padding-left: 10%;
@@ -122,15 +126,18 @@ ul {
 .principio{
     display: flex;
     flex-direction: column;
-    padding: 3%;
+    padding-top: 3%;
 }
 
 .biografia{
-    padding-left: 8%;
+    padding-left: 3%;
 }
 
 .biografia__titulo{
-    color: rgb(73, 39, 15);
+    padding: 10px;
+    text-align: center;
+    background: rgb(139,76,41);
+    background: linear-gradient(144deg, rgba(139,76,41,1) 0%, rgba(180,136,111,1) 35%, rgba(241,231,220,1) 52%, rgba(229,218,204,1) 67%, rgba(216,204,186,1) 78%, rgba(194,181,156,1) 88%); 
 }
 
 .biografia__texto{
@@ -138,13 +145,15 @@ ul {
 }
 
 .informacion{
-    padding-left: 8%;
+    padding-left: 3%;
     padding-top: 2%;
 }
 
 .info__titulo{
-    color: rgb(73, 39, 15);
-
+    padding: 10px;
+    text-align: center;
+    background: rgb(139,76,41);
+    background: linear-gradient(144deg, rgba(139,76,41,1) 0%, rgba(180,136,111,1) 35%, rgba(241,231,220,1) 52%, rgba(229,218,204,1) 67%, rgba(216,204,186,1) 78%, rgba(194,181,156,1) 88%); 
 }
 
 .info__texto{
@@ -154,190 +163,171 @@ ul {
 .imagen{
     height: auto;
     width: 90%;
-    /* padding-left: 5%; */
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 20px ;
-    /* grid-template-rows: 1fr; */
     grid-gap: 20px;
-    justify-items: end;
-    align-items: center;
+    justify-items:center;
+    margin: 8% auto;
 }
 
 .imagen__yo{
-    justify-items: center;
+    justify-items: end;
     height: 120px;
     width: 190px;
     padding: 1%;
 }
 
 .imagen__yo2{
+    justify-items: start; 
     height: 120px;
     width: 190px;
     padding: 1%;
 }
 
-/* obra */
+/* obras */
 
 .titulo{
+    margin-top:2% ;
+    padding: 10px;
     text-align: center;
-    color: rgb(73, 39, 15);
-    margin-top: 20px;
-    margin-bottom: 30px;
+    background: rgb(139,76,41);
+    background: linear-gradient(144deg, rgba(139,76,41,1) 0%, rgba(180,136,111,1) 35%, rgba(241,231,220,1) 52%, rgba(229,218,204,1) 67%, rgba(216,204,186,1) 78%, rgba(194,181,156,1) 88%); 
 }
+
 
 .uno{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: rgb(129, 106, 90);
-    display: inline-block;
-    vertical-align: top;
-    margin: 10px 10px 10px 70px;
+    margin: 3%;
 }
 .dos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: rgb(151, 119, 97);
-    display: inline-block;
-    vertical-align: top;
-    margin: 10px 10px 10px 70px;
+    margin: 3%;
 }
 
-.tres{
-    background-color: rgb(129, 106, 90);
-    display: inline-block;
-    vertical-align: top;
-    margin: 10px 10px 10px 70px;
-}
-
-.cuatro{
-    background-color: rgb(151, 119, 97);
-    display: inline-block;
-    vertical-align: top;
-    margin: 10px 10px 10px 70px;
-}
 
 .uno__imagen{
-    margin: 10px 100px 10px 100px;
-    float: right ;
+    margin: 2%;
     width: 100px;
     height: 100px;
 }
 
-.uno__texto{
-    padding-left: 100px;
-    padding-top: 20px ;
-}
+/* .uno__texto{
+    
+} */
 
 .dos__imagen{
-    margin: 10px 100px 10px 100px;
-    float: right ;
+    margin: 2%;
     width: 100px;
     height: 100px;
 }
 
-.dos__texto{
-    padding-left: 100px;
-    padding-top: 20px ;
-}
+/* .dos__texto{
 
-.tres__imagen{
-    margin: 10px 100px 10px 100px;
-    float: right ;
-    width: 100px;
-    height: 100px;
-}
+} */
 
-.tres__texto{
-    padding-left: 100px;
-    padding-top: 20px ;
-}
-
-
-/* trabajo (roto no entiendo porque)*/
+/* trabajo*/
 
 .arte__titulo{
-    position: absolute;
-    color: rgb(73, 39, 15);
-    padding-top: 80px;
-    padding-left: 250px;
+    margin-top: 3%;
+    padding: 10px;
+    text-align: center;
+    background: rgb(139,76,41);
+    background: linear-gradient(144deg, rgba(139,76,41,1) 0%, rgba(180,136,111,1) 35%, rgba(241,231,220,1) 52%, rgba(229,218,204,1) 67%, rgba(216,204,186,1) 78%, rgba(194,181,156,1) 88%); 
 }
 
-.arte__pintura--uno{
-    width: 100px;
-    height: 100px;
-    padding-left: 120px;
-    padding-top: 150px;
+.arte{
+    padding: 3%;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 150px);
+    grid-gap: 5px;
+    justify-content: center;
 }
-.arte__pintura--dos{
-    width: 100px;
-    height: 100px;
-    padding-left: 50px;
-    padding-top: 150px;
+
+.arteimg{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    border: 2px solid black;
+    background-size: cover;
+    background-position: center;
 }
-.arte__pintura--tres{
-    width: 100px;
-    height: 100px;
-    padding-left: 50px;
-    padding-top: 150px;
+
+.arteimg:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
 }
-.arte__pintura--cuatro{
-    width: 100px;
-    height: 100px;
-    padding-left: 50px;
-    padding-top: 150px;
+
+.pintura1{
+	grid-column: 1/3;
+    grid-row: 1/2;
 }
-.arte__pintura--cinco{
-    width: 100px;
-    height: 100px;
-    padding-left: 50px;
-    padding-top: 150px;
+.pintura2{
+    grid-column: 3/4;
+    grid-row: -4/-2;
 }
-.arte__pintura--seis{
-    width: 100px;
-    height: 100px;
-    padding-left: 50px;
-    padding-top: 150px;
+.pintura3{
+    grid-column: 1/3 ;
+    grid-row: 2/4;
 }
-.arte__pintura--siete{
-    width: 100px;
-    height: 100px;
-    padding-left: 50px;
-    padding-top: 150px;
+/* .pintura4{
+    grid-column: ;
+    grid-row: ;
+} */
+.pintura5{
+	grid-column: 1/2;
+    grid-row: 4/6;
 }
-.arte__pintura--ocho{
-    width: 100px;
-    height: 100px;
-    padding-left: 150px;
-    padding-top: 100px;
+.pintura6{
+    grid-column: -3/-1;
+    grid-row: 4/6;
 }
-.arte__pintura--nueve{
-    width: 100px;
-    height: 100px;
-    padding-left: 50px;
-    padding-top: 100px;
+.pintura7{
+    grid-column: -4/-2;
+    grid-row: 6/8;
 }
-.arte__pintura--diez{
-    width: 100px;
-    height: 100px;
-    padding-left: 50px;
-    padding-top: 100px;
+/* .pintura8{
+    grid-column: ;
+    grid-row: ;
+} */
+.pintura9{
+    grid-column: -4/-2;
+    grid-row: 8/9;
 }
-.arte__pintura--once{
-    width: 100px;
-    height: 100px;
-    padding-left: 50px;
-    padding-top: 100px;
+/* .pintura10{
+    grid-column: ;
+    grid-row: ;
 }
-.arte__pintura--doce{
-    width: 100px;
-    height: 100px;
-    padding-left: 50px;
-    padding-top: 100px;
+.pintura11{
+    grid-column: ;
+    grid-row: ;
+}
+.pintura12{
+    grid-column: ;
+    grid-row: ;
+} */
+
+.arte__pintura{
+    max-width: 100px;
+    max-height: 100px;
 }
 
 /* formulario */
 
 .formulario__titulo{
-    color: black;
-    margin-left: 300px;
-    margin-top: 30px;
+    margin-top: 3%;
+    padding: 10px;
+    text-align: center;
+    background: rgb(139,76,41);
+    background: linear-gradient(144deg, rgba(139,76,41,1) 0%, rgba(180,136,111,1) 35%, rgba(241,231,220,1) 52%, rgba(229,218,204,1) 67%, rgba(216,204,186,1) 78%, rgba(194,181,156,1) 88%); 
 }
 
 .formulario__uno{
@@ -410,4 +400,98 @@ ul {
 .contactanos ul {
     list-style: none;
     display: flex;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+}
+
+
+@media (min-width: 400px) and (max-width: 768px){
+
+    .barra{
+        position: absolute;
+        background: none;
+        max-width: 1px;
+        max-height: 1px;
+    }  
+    
+    .barra img{
+        margin-top: 20px;
+        max-width: 30px;
+        max-height: 30px;
+    }
+
+    /* index */
+
+    .novedad{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 5%;
+    }
+
+    .ultimo{
+        margin: 5% auto;
+    }
+
+    .proceso{
+        margin: 5% auto;
+    }
+
+    /* obra */
+
+    .imagenes{
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 20px ;
+        grid-template-rows: 1fr;
+        grid-gap: 20px;
+        justify-items: center;
+    }
+
+    .imagen{
+        margin-top: 3%;
+        grid-template-columns: 1fr;
+    }
+
+    .imagen img{
+        max-width: auto;
+        max-height: auto;
+    }
+    
+    .barra__perfil--imagen:hover{
+        margin-top: 20px;
+        max-width: 30px;
+        max-height: 30px;
+    }
+
+    .uno{
+        flex-direction: column;
+    }
+
+    .dos{
+        flex-direction: column;
+    }
+
+    .uno__texto{
+        padding: 3%;
+    }
+
+    .dos__texto{
+        padding: 3%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait ){
+
+    .imagen{
+        margin-top: 3%;
+        grid-template-columns: 1fr 1fr;
+    }
 }
