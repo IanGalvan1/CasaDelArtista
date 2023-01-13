@@ -1,0 +1,63 @@
+/* perfil */
+
+.principio{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+}
+
+.biografia{
+    padding-left: 3%;
+}
+
+.biografia__titulo{
+    padding: 10px;
+    text-align: center;
+    background: rgb(139,76,41);
+    background: linear-gradient(144deg, rgba(139,76,41,1) 0%, rgba(180,136,111,1) 35%, rgba(241,231,220,1) 52%, rgba(229,218,204,1) 67%, rgba(216,204,186,1) 78%, rgba(194,181,156,1) 88%); 
+}
+
+.biografia__texto{
+    color: rgb(73, 39, 15);
+}
+
+.informacion{
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+.info__titulo{
+    padding: 10px;
+    text-align: center;
+    background: rgb(139,76,41);
+    background: linear-gradient(144deg, rgba(139,76,41,1) 0%, rgba(180,136,111,1) 35%, rgba(241,231,220,1) 52%, rgba(229,218,204,1) 67%, rgba(216,204,186,1) 78%, rgba(194,181,156,1) 88%); 
+}
+
+.info__texto{
+    color: rgb(73, 39, 15);
+}
+
+.imagen{
+    height: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px ;
+    grid-gap: 20px;
+    justify-items:center;
+    margin: 8% auto;
+}
+
+.imagen__yo{
+    justify-items: end;
+    height: 120px;
+    width: 190px;
+    padding: 1%;
+}
+
+.imagen__yo2{
+    justify-items: start; 
+    height: 120px;
+    width: 190px;
+    padding: 1%;
+}

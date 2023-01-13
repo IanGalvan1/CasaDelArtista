@@ -1,0 +1,46 @@
+/* obras */
+
+.titulo{
+    margin-top:2% ;
+    padding: 10px;
+    text-align: center;
+    background: rgb(139,76,41);
+    background: linear-gradient(144deg, rgba(139,76,41,1) 0%, rgba(180,136,111,1) 35%, rgba(241,231,220,1) 52%, rgba(229,218,204,1) 67%, rgba(216,204,186,1) 78%, rgba(194,181,156,1) 88%); 
+}
+
+
+.uno{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(129, 106, 90);
+    margin: 3%;
+}
+.dos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(151, 119, 97);
+    margin: 3%;
+}
+
+
+.uno__imagen{
+    margin: 2%;
+    width: 100px;
+    height: 100px;
+}
+
+/* .uno__texto{
+    
+} */
+
+.dos__imagen{
+    margin: 2%;
+    width: 100px;
+    height: 100px;
+}
+
+/* .dos__texto{
+
+} */

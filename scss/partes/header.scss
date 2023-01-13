@@ -1,0 +1,33 @@
+// header
+
+header{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.barra{
+    background-color: rgb(143, 100, 69);
+    height: 100%;
+    width: 60px;
+    position:fixed;
+    top: 0%;
+
+    &ul{
+        padding-left: 10%;
+        list-style: none;
+    }
+
+    &__perfil--imagen{
+        position: relative;
+        height: 50px;
+        width: 50px;
+        margin-top: 28%;
+    }
+
+    &__perfil--imagen:hover{
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+        transition: all 0.3s;
+    }
+}
