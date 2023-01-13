@@ -9,38 +9,39 @@
 }
 
 
-.uno{
+.obrauno{
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: rgb(129, 106, 90);
     margin: 3%;
+
+    &__imagen{
+        margin: 2%;
+        width: 100px;
+        height: 100px;
+    }
+
+    &__texto{
+        color: rgb(73, 39, 15);
+    }
 }
-.dos{
+
+.obrados{
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: rgb(151, 119, 97);
     margin: 3%;
+
+    &__imagen{
+        margin: 2%;
+        width: 100px;
+        height: 100px;
+    }
+
+    &__texto{
+        color: rgb(73, 39, 15);
+    }
+
 }
-
-
-.uno__imagen{
-    margin: 2%;
-    width: 100px;
-    height: 100px;
-}
-
-/* .uno__texto{
-    
-} */
-
-.dos__imagen{
-    margin: 2%;
-    width: 100px;
-    height: 100px;
-}
-
-/* .dos__texto{
-
-} */

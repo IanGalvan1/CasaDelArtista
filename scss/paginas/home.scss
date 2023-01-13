@@ -5,54 +5,61 @@
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 0px;
-}
-.portafolio__texto{
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #000000a6;
-    padding: 20px;
-    margin: 50px;
-    width: 600PX;
+
+    &__texto{
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #000000a6;
+        padding: 20px;
+        margin: 50px;
+        width: 600PX;
+    }
+
+    h2{
+        color: rgb(73, 39, 15);
+    }
     
+    p{
+        margin-bottom: 20px;
+    }
 }
-
-h2{
-    color: rgb(73, 39, 15);
-}
-
-.portafolio p{
-    margin-bottom: 20px;
-}
-
+    
 .novedad{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 5%;
 }
+    
+    .ultimo{
 
-.ultimo__texto{
-    color: black;
-    font-size: 32px;
-    padding-left: 10%;
-}
+        &__texto{
+            color: black;
+            font-size: 32px;
+            padding-left: 10%;
+        }
 
-.proceso__texto{
-    color: black;
-    font-size: 32px;
-    padding-left: 10%;
-}
+        &__imagen{
+            height: 200px;
+            width: 200px;
+        }
+    }
+    
+    .proceso{
 
-.ultimo__imagen{
-    height: 200px;
-    width: 200px;
-}
+        &__texto{
+            color: black;
+            font-size: 32px;
+            padding-left: 10%;
+            padding-bottom: 24%;
+        }
 
-.proceso__imagen{
-    height: 200px;
-    width: 200px;
-}
-
+        &__imagen{
+            height: 200px;
+            width: 200px;
+        }
+    }
+    
 .textoarte{
     padding: 10px;
     text-align: center;
@@ -64,5 +71,4 @@ h2{
     display: flex;
     justify-content: center;
     padding: 20px;
-
 }
