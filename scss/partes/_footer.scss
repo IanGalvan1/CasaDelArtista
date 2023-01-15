@@ -1,0 +1,51 @@
+.elfooter{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end ;
+
+    background-color: rgb(143, 100, 69);
+    height: 80px;
+    width: 100%;
+    overflow:auto;
+    position: relative;
+    z-index: 1;
+}
+
+.contactanos_contactanos{
+    font-size: 24px;
+    color: black;
+    font-weight:600;
+    text-align: center;
+}
+
+.contactanos__contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contactanos__textoInstagram{
+    color: rgb(73, 39, 15);
+} 
+
+.contactanos__textoTwitter{
+    color: rgb(73, 39, 15);
+} 
+
+.contactanos__textoTiktok{
+    color: rgb(73, 39, 15);
+} 
+
+.contactanos ul {
+    list-style: none;
+    display: flex;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+}

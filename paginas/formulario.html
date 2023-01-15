@@ -40,42 +40,45 @@
     
 <main>
 
-    <div class="formulario">
-        <h2 class="formulario__titulo"> Complete su formulario </h2>
-        <form class="formulario__uno" action="./formulario.php" method="">
-            <label class="formulario__nombre" for="n"></label>
-            <input class="formulario__input"  id="n"
-            type="text" 
-            name="nombre"
-            placeholder="Ingrese su nombre">
-        </form>
-        <div>               
-            <form class="formulario__dos" action="./formulario.php" method="">
-                <label class="formulario__apellido" for="n"></label>
-                <input class="formulario__input"  id="n"
-                type="text" 
-                name="Apellido"
-                placeholder="Ingrese su Apellido">
-            </form>
+    <div class="form">
+        <h2 class="form__titulo"> Complete su formulario </h2>
+        <div class="formulario">
+            <div class="formulario__ingreso">
+                <form class="formulario__ingreso--uno" action="./formulario.php" method="">
+                    <label class="formulario__ingreso--nombre" for="n"></label>
+                    <input class="formulario__ingreso--input"  id="n"
+                    type="text" 
+                    name="nombre"
+                    placeholder="Ingrese su nombre">
+                </form>
+            </div>
+            <div class="formulario__ingreso">               
+                <form class="formulario__ingreso--dos" action="./formulario.php" method="">
+                    <label class="formulario__ingreso--apellido" for="n"></label>
+                    <input class="formulario__ingreso--input"  id="n"
+                    type="text" 
+                    name="Apellido"
+                    placeholder="Ingrese su Apellido">
+                </form>
+            </div>
+
+            <div class="formulario__ingreso">               
+                <form class="formulario__ingreso--tres" action="./formulario.php" method="">
+                    <label class="formulario__ingreso--email" for="n"></label>
+                    <input class="formulario__ingreso--input"  id="n"
+                    type="text" 
+                    name="e-mail"
+                    placeholder="Ingrese su E-mail">
+                </form>
+            </div>
+
+            <div class="formulario__ingreso--textarea">
+                <label class="formulario__ingreso--titulo" for=""> Ingrese la idea que quiera realizar</label>
+                <textarea class="fomrulario__textarea--textarea" name="" id="" cols="" rows="8"></textarea>
+            </div>
+
+            <input class="formulario__imput" type="submit" value="Enviar">
         </div>
-
-        <div>               
-            <form class="formulario__tres" action="./formulario.php" method="">
-                <label class="formulario__email" for="n"></label>
-                <input class="formulario__input"  id="n"
-                type="text" 
-                name="e-mail"
-                placeholder="Ingrese su E-mail">
-            </form>
-        </div>
-
-        <div class="formulario__textarea">
-            <label class="formulario__textarea--titulo" for=""> Ingrese la idea que quiera realizar</label>
-            <textarea class="fomrulario__textarea--textarea" name="" id="" cols="50" rows="8"></textarea>
-        </div>
-
-        <input class="formulario__imput" type="submit" value="Enviar">
-
     </div>
     
 </main>

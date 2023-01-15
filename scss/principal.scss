@@ -1,7 +1,5 @@
-// partes
-@import "partes/footer.scss";
-@import "partes/header.scss";
-@import "partes/resto.scss";
+// variables
+@import "variables.scss";
 
 // paginas
 @import "paginas/formulario.scss";
@@ -10,5 +8,8 @@
 @import "paginas/perfil.scss";
 @import "paginas/trabajo.scss";
 
-//extras
-@import "./guardado/variablesyetc.scss";
+// partes
+@import "partes/_footer";
+@import "partes/header.scss";
+@import "partes/resto.scss";
+@import "./partes/mediaqueries.scss";

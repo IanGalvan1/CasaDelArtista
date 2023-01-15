@@ -1,0 +1,419 @@
+@media only screen and (min-width: 375px) and (max-width: 768px){
+
+    body{
+        margin: 0;
+        padding: 0;
+        max-width: auto;
+        max-height: auto;
+    }
+
+    .barra{
+        position: absolute;
+        background: none;
+        max-width: 1px;
+        max-height: 1px;
+
+        img{
+            margin-top: 20px;
+            max-width: 30px;
+            max-height: 30px;
+        }
+
+        &__perfil--imagen:hover{
+            margin-top: 20px;
+            max-width: 30px;
+            max-height: 30px;
+        }
+
+    }  
+
+
+    /* index */
+
+    .novedad{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 5%;
+    }
+
+    .ultimo{
+        margin: 5% auto;
+    }
+
+    .proceso{
+        margin: 5% auto;
+    }
+
+    /* obra */
+
+    .imagenes{
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 20px ;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 20px;
+        justify-items: center;
+
+        &__imagen{
+        margin-top: 3%;
+        grid-template-columns: 1fr;
+        }
+
+        img{
+            max-width: auto;
+            max-height: auto;
+        }
+
+        &obrauno{
+            flex-direction: column;
+        }
+
+        &obrados{
+            flex-direction: column;
+        }
+
+        &__texto{
+            overflow-y: scroll;
+            padding: 3%;
+        }
+
+    }
+
+    // perfil
+
+    .principio{
+        text-align: center;
+        padding-right: 10%;
+    }
+
+    .imagenperfil{
+        grid-template-columns: 1fr;
+        grid-column-gap:10px;
+        grid-gap: 10px;
+
+        &__yo{
+            justify-items: center;
+            height: 120px;
+            width: 190px;
+        }
+
+        &__yo2{
+            justify-items: center;
+            height: 120px;
+            width: 190px;
+        }
+    }
+
+    //obra
+
+    .obrauno{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 350px;
+        padding: 15px;
+        margin: 10px;
+        justify-content: space-between;
+
+        &__imagen{
+            flex-direction: column;
+            align-content: center;
+        }
+
+        &__texto{
+            text-align: justify;
+            font-size: 13px;
+        }
+    }
+
+    .obrados{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 350px;
+        padding: 15px;
+        margin: 10px;
+        justify-content: space-between;
+
+        &__imagen{
+            flex-direction: column;
+            align-content: center;
+        }
+
+        &__texto{
+            text-align: justify;
+            font-size: 13px;
+        }
+    }
+
+    // trabajo
+
+    .arte{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 5px;
+        justify-items: center;
+
+        img{
+            background: rgb(232,223,210);
+            background: linear-gradient(90deg, rgba(232,223,210,1) 18%, rgba(244,234,220,1) 94%);
+            padding: 5%;
+            height: 150px;
+            width: 150px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        &__draw--pintura1{
+        grid-column:1/2;
+        grid-row:2/3;
+        }
+
+        &__draw--pintura2{
+        grid-column:2/3;
+        grid-row:1/2;
+        }
+
+        &__draw--pintura3{
+        grid-column:1/2;
+        grid-row:2/3;
+        }
+
+        &__draw--pintura4{
+        grid-column:2/3;
+        grid-row:2/3;
+        }
+
+        &__draw--pintura5{
+        grid-column:1/2;
+        grid-row:3/4;
+        }
+
+        &__draw--pintura6{
+        grid-column:2/3;
+        grid-row:3/4;
+        }
+
+        &__draw--pintura7{
+        grid-column:1/2;
+        grid-row:4/5;
+        }
+
+        &__draw--pintura8{
+        grid-column:2/3;
+        grid-row:4/5;
+        }
+
+        &__draw--pintura9{
+        grid-column:1/2;
+        grid-row:5/6;
+        }
+
+        &__draw--pintura10{
+        grid-column:2/3;
+        grid-row:5/6;
+        }
+
+        &__draw--pintura11{
+        grid-column:1/2;
+        grid-row:6/7;
+        }
+
+        &__draw--pintura12{
+        grid-column:2/3;
+        grid-row:6/7;
+        }
+
+    }
+
+    //formulario 
+
+    .formulario{
+        justify-content: center;
+
+        &__ingreso--textarea{
+            display: flex;
+            flex-direction: column;
+            margin-left: 30%;
+            margin-top: 50px;
+    
+            label{
+                margin: 1%;
+                color: black;
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+        
+        &__imput{
+            display: flex;
+            height: 30px;
+            width: 50px;
+            justify-content: end;
+        }
+    }
+}
+@media only screen and  (min-width: 768px) and (max-width: 1024px){
+
+    //perfil
+
+    .imagenperfil{
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap:10px;
+        grid-gap: 10px;
+    
+        &__yo{
+            justify-items: center;
+            height: 120px;
+            width: 190px;
+        }
+    
+        &__yo2{
+            justify-items: center;
+            height: 120px;
+            width: 190px;
+        }
+    }
+
+
+//obra
+
+    .obrauno{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 3%;
+        height: auto;
+        width: auto;
+
+        &__imagen{
+        margin: 2%;
+        width: 100px;
+        height: 100px;
+        }
+
+        &__texto{
+        color: rgb(73, 39, 15);
+        }
+    }
+
+    .obrados{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 3%;
+        height: auto;
+    width: auto;
+
+        &__imagen{
+        margin: 2%;
+        width: 100px;
+        height: 100px;
+        }
+
+        &__texto{
+        color: rgb(73, 39, 15);
+        }
+    }
+
+    // trabajo
+
+.arte{
+        padding: 3%;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 150px);
+        grid-gap: 5px;
+
+        img{
+        height: 100%;
+        width: 100%;
+        }
+
+        &__draw--pintura1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        }
+
+        &__draw--pintura2{
+        grid-column: 3/4;
+        grid-row: -4/-2;
+        }
+
+        &__draw--pintura3{
+        grid-column: 1/3 ;
+        grid-row: 2/4;
+        }
+
+        &__draw--pintura4{
+    grid-column: 4/5;
+    grid-row: 1/3;
+        }   
+
+        &__draw--pintura5{
+        grid-column: 1/2;
+        grid-row: 4/6;
+        }
+
+        &__draw--pintura6{
+        grid-column: -3/-1;
+        grid-row: 4/6;
+        }
+    
+        &__draw--pintura7{
+        grid-column: 1/3;
+        grid-row: 6/8;
+        }
+
+        &__draw--pintura8{
+    grid-column:3/5;
+    grid-row:3/4;
+        }
+
+        &__draw--pintura9{
+        grid-column: 3/5;
+        grid-row: 6/8;
+        }
+
+        // &__draw--pintura10{
+        //     grid-column: ;
+        //     grid-row: ;
+        // }
+
+        &__draw--pintura11{
+        grid-column:2/3 ;
+        grid-row: 4/6 ;
+        }
+
+        // &__draw--pintura12{
+        //     grid-column: ;
+        //     grid-row: ;
+        // }
+
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 2000px){
+
+    // perfil
+
+    .imagenperfil{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap:10px;
+        grid-gap: 10px;
+    
+        &__yo{
+            justify-items: center;
+            height: 120px;
+            width: 190px;
+        }
+    
+        &__yo2{
+            justify-items: center;
+            height: 120px;
+            width: 190px;
+        }
+    }
+}
