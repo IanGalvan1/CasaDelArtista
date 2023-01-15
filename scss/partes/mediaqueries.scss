@@ -1,4 +1,4 @@
-@media only screen and (min-width: 350px) and (max-width: 768px){
+@media only screen and (min-width: 355px) and (max-width: 768px){
 
     body{
         margin: 0;
@@ -43,41 +43,6 @@
 
     .proceso{
         margin: 5% auto;
-    }
-
-    /* obra */
-
-    .imagenes{
-        display: grid;
-        grid-template-columns: auto;
-        grid-column-gap: 20px ;
-        grid-template-rows: 1fr 1fr;
-        grid-gap: 20px;
-        justify-items: center;
-
-        &__imagen{
-        margin-top: 3%;
-        grid-template-columns: 1fr;
-        }
-
-        img{
-            max-width: auto;
-            max-height: auto;
-        }
-
-        &obrauno{
-            flex-direction: column;
-        }
-
-        &obrados{
-            flex-direction: column;
-        }
-
-        &__texto{
-            overflow-y: scroll;
-            padding: 3%;
-        }
-
     }
 
     // perfil
