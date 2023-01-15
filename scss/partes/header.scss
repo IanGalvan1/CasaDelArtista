@@ -5,29 +5,29 @@ header{
     justify-content: flex-start;
 }
 
-.barra{
-    background-color: rgb(143, 100, 69);
-    height: 100%;
-    width: 60px;
-    position:fixed;
-    top: 0%;
+nav{
 
-    &ul{
-        padding-left: 10%;
-        list-style: none;
+    img{
+        max-width: 50px;
+        max-height: 50px;
     }
 
-    &__perfil--imagen{
-        position: relative;
-        height: 50px;
-        width: 50px;
-        margin-top: 28%;
-    }
-
-    &__perfil--imagen:hover{
+    img:hover{
         height: 60px;
         width: 60px;
         margin: 10px;
         transition: all 0.3s;
     }
+
 }
+
+.offcanvas-start{
+    background-color: rgb(143, 100, 69);
+    width: 80px;
+}
+
+.btn-close{
+    margin-top: 10%;
+    margin-left: 35%;
+    }
+

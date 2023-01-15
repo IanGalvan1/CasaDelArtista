@@ -4,39 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../css/estilos.css">
     <title>Mi portafolio</title>
 </head>
 
 <body>
 <header>
-    <div class="barra">
-        <ul>
-            <li>
-                <a href="../index.html"> 
-                    <img class="barra__perfil--imagen" src="../imagenes paginas web/logo.png" alt="figura humana en negro"></a>
-            </li>
-            <li>
-                <a href="../paginas/perfil.html"> 
-                <img class="barra__perfil--imagen" src="../imagenes paginas web/avatar.png" alt="figura humana en negro"></a>
-            </li>
-            <li>
-                <a href="../paginas/obra.html"> 
-                    <img class="barra__perfil--imagen" src="../imagenes paginas web/folder-g515672d59_1280.png" alt="carpeta con papeles dentro"></a>
-                </a>
-            </li>
-            <li>
-                <a href="../paginas/trabajo.html"> 
-                <img class="barra__perfil--imagen" src="../imagenes paginas web/history-g67768515b_1280.png" alt="flecha circula con reloj"></a>
-                </a>
-            </li>
-            <li>
-                <a href="../paginas/formulario.html"> 
-                <img class="barra__perfil--imagen" src="../imagenes paginas web/icon-g577bb9492_1280.png" alt="lapiz dentro de circulo"> </a>
-                </a>
-            </li>
-    </div>
+    <nav class="navbar navbar-light fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">    
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-2" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <a href="../index.html">
+                            <img class="logo"  src="../imagenes paginas web/logo.png" alt="logo de la pagina">
+                        </a>
+                    </h5>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../paginas/perfil.html">
+                                <img src="../imagenes paginas web/perfil.png" alt="hombre de negro">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../paginas/obra.html">
+                                <img src="../imagenes paginas web/obras.png" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../paginas/trabajo.html">
+                                <img src="../imagenes paginas web/historial.png" alt="flecha apuntando hacia atras">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../paginas/formulario.html">
+                                <img src="../imagenes paginas web/lapiz.png" alt="Un lapiz">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 </header>
     
 <main>
