@@ -10,13 +10,13 @@
         color: white;
         font-family: $fonts;
         background-color: #a6826864;
-        padding: 20px;
-        margin: 50px;
+        margin:5%;
         width: 805;
     }
 
     h2{
         color: $colord;
+        padding: 5px;
     }
     
     p{
@@ -33,26 +33,33 @@
 }
 
     .ultimo{
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
         &__texto{
             color: $colora;
             font-size: 32px;
-            padding-left: 1%;
             display: inline;
         }
 
         &__imagen{
             height: 200px;
             width: 200px;
-            padding-left: 8%;
+            margin-left: 15%;
         }
     }
     
     .proceso{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
         &__texto{
+            margin-left: 5%;
             color: $colora;
             font-size: 32px;
-            padding-left: 10%;
+            display: inline;
         }
 
         &__imagen{
