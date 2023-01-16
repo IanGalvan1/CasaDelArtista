@@ -6,36 +6,36 @@
     padding-top: 3%;
 
     &__biografia{
-        padding-left: 3%;
-
+        padding: 2%;
+        text-align: center;
+        font-family: $fonts;
         h2{
-            color: rgb(73, 39, 15);
+            color: $colord;
             padding: 10px;
-            text-align: center;
-            background: rgb(139,76,41);
-            background: linear-gradient(144deg, rgba(139,76,41,1) 0%, rgba(180,136,111,1) 35%, rgba(241,231,220,1) 52%, rgba(229,218,204,1) 67%, rgba(216,204,186,1) 78%, rgba(194,181,156,1) 88%); 
+            background: $backtituno;
+            background: $backtitdos; 
         }
 
         p{
-            color: rgb(73, 39, 15);
+            color: black;
         }
 
     }
 
     &__informacion{
-        padding-left: 3%;
-        padding-top: 2%;
+        padding: 2%;
+        text-align: center;
+        font-family: $fonts;
 
         h2{
-            color: rgb(73, 39, 15);
+            color: $colord;
             padding: 10px;
-            text-align: center;
-            background: rgb(139,76,41);
-            background: linear-gradient(144deg, rgba(139,76,41,1) 0%, rgba(180,136,111,1) 35%, rgba(241,231,220,1) 52%, rgba(229,218,204,1) 67%, rgba(216,204,186,1) 78%, rgba(194,181,156,1) 88%); 
+            background: $backtituno;
+            background: $backtitdos; 
         }
 
         p{
-            color: rgb(73, 39, 15);
+            color: black;
         }
     }
 }

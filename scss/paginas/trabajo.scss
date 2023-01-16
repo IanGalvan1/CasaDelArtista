@@ -1,11 +1,13 @@
 /* trabajo*/
 
 .arte__titulo{
-    margin-top: 3%;
+    font-style: $fonts;
+    color: $colord;
+    margin: 3%;
     padding: 10px;
     text-align: center;
-    background: rgb(139,76,41);
-    background: linear-gradient(144deg, rgba(139,76,41,1) 0%, rgba(180,136,111,1) 35%, rgba(241,231,220,1) 52%, rgba(229,218,204,1) 67%, rgba(216,204,186,1) 78%, rgba(194,181,156,1) 88%); 
+    background: $backtituno;
+    background: $backtitdos; 
 }
 
 .arte{

@@ -3,20 +3,20 @@
 .portafolio {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 0px;
+    justify-content: center;
+    text-align: center;
 
     &__texto{
         color: white;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        background-color: #000000a6;
+        font-family: $fonts;
+        background-color: #a6826864;
         padding: 20px;
         margin: 50px;
-        width: 600PX;
+        width: 805;
     }
 
     h2{
-        color: rgb(73, 39, 15);
+        color: $colord;
     }
     
     p{
@@ -25,33 +25,34 @@
 }
     
 .novedad{
+    font-family: $fonts;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 5%;
+    margin: 5%;    
 }
-    
-    .ultimo{
 
+    .ultimo{
+        
         &__texto{
-            color: black;
+            color: $colora;
             font-size: 32px;
-            padding-left: 10%;
+            padding-left: 1%;
+            display: inline;
         }
 
         &__imagen{
             height: 200px;
             width: 200px;
+            padding-left: 8%;
         }
     }
     
     .proceso{
-
         &__texto{
-            color: black;
+            color: $colora;
             font-size: 32px;
             padding-left: 10%;
-            padding-bottom: 24%;
         }
 
         &__imagen{
@@ -61,10 +62,12 @@
     }
     
 .textoarte{
+    font-family: $fonts;
     padding: 10px;
     text-align: center;
-    background: rgb(139,76,41);
-    background: linear-gradient(144deg, rgba(139,76,41,1) 0%, rgba(180,136,111,1) 35%, rgba(241,231,220,1) 52%, rgba(229,218,204,1) 67%, rgba(216,204,186,1) 78%, rgba(194,181,156,1) 88%); 
+    background: $backtituno;
+    background: $backtitdos; 
+    color: $colord;
 }
 
 .carrucel{

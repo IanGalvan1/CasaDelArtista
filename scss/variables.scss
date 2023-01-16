@@ -5,4 +5,13 @@ $colorc: #F0AF7F;
 $colord: #599CA3;
 $colore: #AFE9F0;
 
+// backgound
+$backuno: rgb(166,130,104);
+$backdos: linear-gradient(180deg, rgba(166,130,104,1) 0%, rgba(255,215,186,1) 7%, rgba(255,215,186,1) 58%, rgba(175,233,240,1) 100%);
 
+// backgound titulos
+$backtituno: rgb(255,215,186);
+$backtitdos: radial-gradient(circle, rgba(255,215,186,1) 0%, rgba(166,130,104,1) 100%);
+
+// fonts
+$fonts:Verdana, Geneva, Tahoma, sans-serif;

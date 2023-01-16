@@ -5,20 +5,15 @@
   justify-content: space-around;
 }
 .form__titulo {
-  color: rgb(73, 39, 15);
+  color: #599CA3;
   justify-content: center;
   margin: 3%;
   padding: 10px;
   text-align: center;
-  background: rgb(139, 76, 41);
-  background: linear-gradient(144deg, rgb(139, 76, 41) 0%, rgb(180, 136, 111) 35%, rgb(241, 231, 220) 52%, rgb(229, 218, 204) 67%, rgb(216, 204, 186) 78%, rgb(194, 181, 156) 88%);
+  background: rgb(255, 215, 186);
+  background: radial-gradient(circle, rgb(255, 215, 186) 0%, rgb(166, 130, 104) 100%);
 }
 
-.formulario {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 .formulario__ingreso--uno {
   display: flex;
   margin-top: 45px;
@@ -47,9 +42,8 @@
   color: black;
   font-size: 20px;
 }
-.formulario__ingreso--imput {
+.formulario__imput {
   display: flex;
-  flex-direction: row;
   margin: 1%;
   height: 30px;
   width: 50px;
@@ -60,25 +54,26 @@
 .portafolio {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  margin-right: 0px;
+  justify-content: center;
+  text-align: center;
 }
 .portafolio__texto {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rgba(0, 0, 0, 0.6509803922);
+  background-color: rgba(166, 130, 104, 0.3921568627);
   padding: 20px;
   margin: 50px;
-  width: 600PX;
+  width: 805;
 }
 .portafolio h2 {
-  color: rgb(73, 39, 15);
+  color: #599CA3;
 }
 .portafolio p {
   margin-bottom: 20px;
 }
 
 .novedad {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -86,20 +81,21 @@
 }
 
 .ultimo__texto {
-  color: black;
+  color: #A68268;
   font-size: 32px;
-  padding-left: 10%;
+  padding-left: 1%;
+  display: inline;
 }
 .ultimo__imagen {
   height: 200px;
   width: 200px;
+  padding-left: 8%;
 }
 
 .proceso__texto {
-  color: black;
+  color: #A68268;
   font-size: 32px;
   padding-left: 10%;
-  padding-bottom: 24%;
 }
 .proceso__imagen {
   height: 200px;
@@ -107,10 +103,12 @@
 }
 
 .textoarte {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 10px;
   text-align: center;
-  background: rgb(139, 76, 41);
-  background: linear-gradient(144deg, rgb(139, 76, 41) 0%, rgb(180, 136, 111) 35%, rgb(241, 231, 220) 52%, rgb(229, 218, 204) 67%, rgb(216, 204, 186) 78%, rgb(194, 181, 156) 88%);
+  background: rgb(255, 215, 186);
+  background: radial-gradient(circle, rgb(255, 215, 186) 0%, rgb(166, 130, 104) 100%);
+  color: #599CA3;
 }
 
 .carrucel {
@@ -121,18 +119,21 @@
 
 /* obras */
 .titulo {
-  margin-top: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 2%;
   padding: 10px;
   text-align: center;
-  background: rgb(139, 76, 41);
-  background: linear-gradient(144deg, rgb(139, 76, 41) 0%, rgb(180, 136, 111) 35%, rgb(241, 231, 220) 52%, rgb(229, 218, 204) 67%, rgb(216, 204, 186) 78%, rgb(194, 181, 156) 88%);
+  background: rgb(255, 215, 186);
+  background: radial-gradient(circle, rgb(255, 215, 186) 0%, rgb(166, 130, 104) 100%);
+  color: #599CA3;
 }
 
 .obrauno {
+  font-style: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: rgb(129, 106, 90);
+  background-color: #599CA3;
   margin: 3%;
 }
 .obrauno__imagen {
@@ -141,14 +142,15 @@
   height: 100px;
 }
 .obrauno__texto {
-  color: rgb(73, 39, 15);
+  color: black;
 }
 
 .obrados {
+  font-style: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: rgb(151, 119, 97);
+  background-color: #AFE9F0;
   margin: 3%;
 }
 .obrados__imagen {
@@ -157,7 +159,7 @@
   height: 100px;
 }
 .obrados__texto {
-  color: rgb(73, 39, 15);
+  color: black;
 }
 
 /* perfil */
@@ -167,31 +169,32 @@
   padding-top: 3%;
 }
 .principio__biografia {
-  padding-left: 3%;
+  padding: 2%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .principio__biografia h2 {
-  color: rgb(73, 39, 15);
+  color: #599CA3;
   padding: 10px;
-  text-align: center;
-  background: rgb(139, 76, 41);
-  background: linear-gradient(144deg, rgb(139, 76, 41) 0%, rgb(180, 136, 111) 35%, rgb(241, 231, 220) 52%, rgb(229, 218, 204) 67%, rgb(216, 204, 186) 78%, rgb(194, 181, 156) 88%);
+  background: rgb(255, 215, 186);
+  background: radial-gradient(circle, rgb(255, 215, 186) 0%, rgb(166, 130, 104) 100%);
 }
 .principio__biografia p {
-  color: rgb(73, 39, 15);
+  color: black;
 }
 .principio__informacion {
-  padding-left: 3%;
-  padding-top: 2%;
+  padding: 2%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .principio__informacion h2 {
-  color: rgb(73, 39, 15);
+  color: #599CA3;
   padding: 10px;
-  text-align: center;
-  background: rgb(139, 76, 41);
-  background: linear-gradient(144deg, rgb(139, 76, 41) 0%, rgb(180, 136, 111) 35%, rgb(241, 231, 220) 52%, rgb(229, 218, 204) 67%, rgb(216, 204, 186) 78%, rgb(194, 181, 156) 88%);
+  background: rgb(255, 215, 186);
+  background: radial-gradient(circle, rgb(255, 215, 186) 0%, rgb(166, 130, 104) 100%);
 }
 .principio__informacion p {
-  color: rgb(73, 39, 15);
+  color: black;
 }
 
 .imagenperfil {
@@ -219,11 +222,13 @@
 
 /* trabajo*/
 .arte__titulo {
-  margin-top: 3%;
+  font-style: Verdana, Geneva, Tahoma, sans-serif;
+  color: #599CA3;
+  margin: 3%;
   padding: 10px;
   text-align: center;
-  background: rgb(139, 76, 41);
-  background: linear-gradient(144deg, rgb(139, 76, 41) 0%, rgb(180, 136, 111) 35%, rgb(241, 231, 220) 52%, rgb(229, 218, 204) 67%, rgb(216, 204, 186) 78%, rgb(194, 181, 156) 88%);
+  background: rgb(255, 215, 186);
+  background: radial-gradient(circle, rgb(255, 215, 186) 0%, rgb(166, 130, 104) 100%);
 }
 
 .arte {
@@ -355,7 +360,8 @@ nav img:hover {
 }
 
 .offcanvas-start {
-  background-color: rgb(143, 100, 69);
+  background-color: rgb(166, 130, 104);
+  background-color: rgb(166, 130, 104);
   width: 80px;
 }
 
@@ -370,8 +376,8 @@ nav img:hover {
 }
 
 body {
-  background: rgb(169, 105, 105);
-  background: linear-gradient(0deg, rgb(255, 255, 255) 3%, rgb(245, 237, 225) 15%, rgb(242, 234, 221) 35%, rgb(216, 204, 186) 58%, rgb(214, 203, 182) 78%, rgb(213, 202, 180) 90%);
+  background: rgb(166, 130, 104);
+  background: linear-gradient(180deg, rgb(166, 130, 104) 0%, rgb(255, 215, 186) 7%, rgb(255, 215, 186) 58%, rgb(175, 233, 240) 100%);
   max-width: 1600px;
   margin: 0px auto;
 }
@@ -382,11 +388,11 @@ ul {
 }
 
 head {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(0deg, rgb(255, 255, 255) 3%, rgb(245, 237, 225) 15%, rgb(242, 234, 221) 35%, rgb(216, 204, 186) 58%, rgb(214, 203, 182) 78%, rgb(213, 202, 180) 90%);
+  background: rgb(166, 130, 104);
+  background: linear-gradient(180deg, rgb(166, 130, 104) 0%, rgb(255, 215, 186) 7%, rgb(255, 215, 186) 58%, rgb(175, 233, 240) 100%);
 }
 
-@media only screen and (min-width: 355px) and (max-width: 768px) {
+@media only screen and (min-width: 340px) and (max-width: 768px) {
   body {
     margin: 0;
     padding: 0;

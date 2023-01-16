@@ -1,19 +1,22 @@
 /* obras */
 
 .titulo{
-    margin-top:2% ;
+    font-family: $fonts;
+    margin:2% ;
     padding: 10px;
     text-align: center;
-    background: rgb(139,76,41);
-    background: linear-gradient(144deg, rgba(139,76,41,1) 0%, rgba(180,136,111,1) 35%, rgba(241,231,220,1) 52%, rgba(229,218,204,1) 67%, rgba(216,204,186,1) 78%, rgba(194,181,156,1) 88%); 
+    background: $backtituno;
+    background: $backtitdos; 
+    color: $colord;
 }
 
 
 .obrauno{
+    font-style: $fonts;
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: rgb(129, 106, 90);
+    background-color: $colord;
     margin: 3%;
 
     &__imagen{
@@ -23,15 +26,16 @@
     }
 
     &__texto{
-        color: rgb(73, 39, 15);
+        color: black;
     }
 }
 
 .obrados{
+    font-style: $fonts;
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: rgb(151, 119, 97);
+    background-color: $colore;
     margin: 3%;
 
     &__imagen{
@@ -41,7 +45,7 @@
     }
 
     &__texto{
-        color: rgb(73, 39, 15);
+        color: black;
     }
 
 }
