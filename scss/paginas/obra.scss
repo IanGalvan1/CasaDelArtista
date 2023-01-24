@@ -18,14 +18,21 @@
     align-items: center;
     background-color: $colord;
     margin: 3%;
+    padding: 2%;
 
     &__imagen{
-        margin: 2%;
-        width: auto;
-        height: 100px;
+        width: 150px;
+        height: 150px;
+        transition: all 1s;
+
+        &:hover{
+            height: 500px;
+            width: 500px;
+        }
     }
 
     &__texto{
+        margin: 2%;
         color: black;
     }
 }
@@ -37,14 +44,21 @@
     align-items: center;
     background-color: $colore;
     margin: 3%;
+    padding: 2%;
 
     &__imagen{
-        margin: 2%;
-        width: auto;
-        height: 100px;
+        width: 150px;
+        height: 150px;
+        transition: all 1s;
+
+        &:hover{
+            height: 500px;
+            width: 500px;
+        }
     }
 
     &__texto{
+        margin: 2%;
         color: black;
     }
 
