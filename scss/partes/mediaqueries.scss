@@ -249,12 +249,13 @@
 
     .contactanos{
         max-width: 100%;
-        max-height: 150px;
+        max-height: 250px;
 
         &__titulo{
         color: $colord;
         font-size: 17px;
         text-align: center;
+        margin: 2%;
         }
 
         &__redes{
@@ -262,6 +263,10 @@
             ul{
                 display: flex;
                 flex-direction: column;
+
+                li{
+                    margin: 4%;
+                }
             }
         }
     }

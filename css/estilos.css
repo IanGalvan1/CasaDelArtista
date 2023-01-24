@@ -141,6 +141,19 @@
   justify-content: center;
   padding: 20px;
 }
+.carrucel img {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  max-width: 512px;
+  max-height: 512px;
+}
+
+.carousel-inner {
+  display: flex;
+  max-width: 512px;
+  max-height: 512px;
+}
 
 /* obras */
 .titulo {
@@ -340,15 +353,40 @@ footer {
 header {
   display: flex;
   justify-content: flex-start;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+nav {
+  display: flex;
+  flex-direction: column;
+}
+nav .navbar-toggler {
+  background-color: rgba(119, 196, 205, 0.6784313725);
+}
+nav h5 {
+  height: auto;
+  width: auto;
+  text-decoration: none;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+}
+nav a:hover {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
 nav img {
   max-width: 50px;
   max-height: 50px;
+  margin-bottom: 10px;
 }
-nav img:hover {
-  height: 60px;
-  width: 60px;
+nav ul img:hover {
+  height: 80px;
+  width: 80px;
   margin: 10px;
   transition: all 0.3s;
 }
@@ -356,12 +394,18 @@ nav img:hover {
 .offcanvas-start {
   background-color: rgb(166, 130, 104);
   background-color: rgb(166, 130, 104);
-  width: 80px;
+  width: 90px;
 }
 
 .btn-close {
   margin-top: 10%;
   margin-left: 35%;
+}
+
+.offcanvas-title {
+  text-decoration: none;
+  line-height: 0px;
+  color: black;
 }
 
 * {
@@ -578,16 +622,20 @@ head {
   }
   .contactanos {
     max-width: 100%;
-    max-height: 150px;
+    max-height: 250px;
   }
   .contactanos__titulo {
     color: #599CA3;
     font-size: 17px;
     text-align: center;
+    margin: 2%;
   }
   .contactanos__redes ul {
     display: flex;
     flex-direction: column;
+  }
+  .contactanos__redes ul li {
+    margin: 4%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {

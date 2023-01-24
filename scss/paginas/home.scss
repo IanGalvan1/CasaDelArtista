@@ -81,4 +81,19 @@
     display: flex;
     justify-content: center;
     padding: 20px;
+
+    img{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        max-width: 512px;
+        max-height: 512px;
+    }
 }
+
+.carousel-inner{
+    display: flex;
+    max-width: 512px;
+    max-height: 512px;
+}
+

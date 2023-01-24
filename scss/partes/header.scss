@@ -3,20 +3,51 @@
 header{
     display: flex;
     justify-content: flex-start;
+    font-family: $fonts;
+
 }
 
+
+
 nav{
+    display: flex;
+    flex-direction: column;
+
+    .navbar-toggler{
+        background-color: $navbar-light-color;
+    }
+
+    h5{
+        height: auto;
+        width: auto;
+        text-decoration: none;
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    a:hover{
+        color: black; font-family: $fonts; text-decoration: none 
+    }
 
     img{
         max-width: 50px;
         max-height: 50px;
+        margin-bottom: 10px;
     }
 
-    img:hover{
-        height: 60px;
-        width: 60px;
-        margin: 10px;
-        transition: all 0.3s;
+    ul{
+    
+        img:hover{
+            height: 80px;
+            width: 80px;
+            margin: 10px;
+            transition: all 0.3s;
+        }
     }
 
 }
@@ -24,7 +55,7 @@ nav{
 .offcanvas-start{
     background-color: $backuno;
     background-color: $backuno;
-    width: 80px;
+    width: 90px;
 }
 
 .btn-close{
@@ -32,3 +63,9 @@ nav{
     margin-left: 35%;
     }
 
+
+.offcanvas-title{
+    text-decoration: none;
+    line-height: 0px;
+    color: black;
+}

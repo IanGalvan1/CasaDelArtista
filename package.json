@@ -1,0 +1,21 @@
+{
+  "name": "pagina-web",
+  "version": "1.0.0",
+  "description": "Proyecto CoderHouse",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TadeoGalvan/PortafolioOnline.git"
+  },
+  "author": "Ian Galvan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TadeoGalvan/PortafolioOnline/issues"
+  },
+  "homepage": "https://github.com/TadeoGalvan/PortafolioOnline#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
