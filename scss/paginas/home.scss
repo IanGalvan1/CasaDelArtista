@@ -32,41 +32,41 @@
     margin: 5%;    
 }
 
-    .ultimo{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+.ultimo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-        &__texto{
-            color: $colora;
-            font-size: 32px;
-            display: inline;
-        }
-
-        &__imagen{
-            height: 200px;
-            width: 200px;
-            // margin-left: 15%;
-        }
+    &__texto{
+        color: $colora;
+        font-size: 32px;
+        display: inline;
     }
+
+    &__imagen{
+        height: 200px;
+        width: 200px;
+        // margin-left: 15%;
+    }
+}
     
-    .proceso{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+.proceso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-        &__texto{
-            margin-left: 5%;
-            color: $colora;
-            font-size: 32px;
-            display: inline;
-        }
-
-        &__imagen{
-            height: 200px;
-            width: 200px;
-        }
+    &__texto{
+        margin-left: 5%;
+        color: $colora;
+        font-size: 32px;
+        display: inline;
     }
+
+    &__imagen{
+        height: 200px;
+        width: 200px;
+    }
+}
     
 .textoarte{
     font-family: $fonts;

@@ -7,16 +7,15 @@
         max-height: auto;
     }
 
+    p{
+        margin-bottom: 0px;
+    }
+
 
 
     .nav{
+        
         img{
-            margin-top: 20px;
-            max-width: 30px;
-            max-height: 30px;
-        }
-
-        &__perfil--imagen:hover{
             margin-top: 20px;
             max-width: 30px;
             max-height: 30px;
@@ -26,7 +25,7 @@
     
     .offcanvas-start{
         background-color: rgb(143, 100, 69);
-        width: 80px;
+        width: 90px;
     }
     
     .btn-close{
@@ -111,6 +110,11 @@
         &__imagen{
             flex-direction: column;
             align-content: center;
+        
+            &:hover{
+                height: 300px;
+                width: 300px;
+            }
         }
 
         &__texto{
@@ -131,6 +135,11 @@
         &__imagen{
             flex-direction: column;
             align-content: center;
+        
+            &:hover{
+            height: 300px;
+            width: 300px;
+            }
         }
 
         &__texto{
@@ -150,8 +159,8 @@
 
         img{
             padding: 5%;
-            height: 230px;
-            width: 230px;
+            height: 185px;
+            width: 185px;
             background-size: cover;
             background-position: center;
         }
